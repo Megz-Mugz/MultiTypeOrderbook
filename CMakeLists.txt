@@ -3,4 +3,7 @@ project(MultiTypeOrderbook)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(MultiTypeOrderbook main.cpp)
+add_executable(MultiTypeOrderbook src/main.cpp
+        src/include/order.hpp
+        src/include/portfolio.hpp
+)
